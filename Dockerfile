@@ -8,7 +8,9 @@ RUN apk add --no-cache tzdata \
     && echo "America/Sao_Paulo" > /etc/timezone \
     && apk del tzdata
 
-RUN apk add --no-cache \
+RUN apk add \
+    openssl \
+    openssl-dev \
     libzip-dev \
     zip \
     unzip \
