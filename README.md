@@ -14,7 +14,7 @@ Isso irá iniciar a api na porta local 8080, e um dashboard do mongodb na porta 
 
 A maior parte dos arquivos de regra de negócio está na pasta `App`, os principais sendo:
 
-[Controller](app/Http/Controllers/NewsReleasesController.php)
-[Service IBGE](app/Services/IbgeService.php)
-[Models Para Salvar no banco em](app/Models/)
-[Rotas em](routes/api.php)
+[Controller](app/Http/Controllers/NewsReleasesController.php)  
+[Service IBGE](app/Services/IbgeService.php)  
+[Models Para Salvar no banco em](app/Models/)  
+[Rotas em](routes/api.php)  
